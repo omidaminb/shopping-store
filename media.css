@@ -1,0 +1,150 @@
+@media all and (max-width: 1600px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    /* ----- */
+    .banner-items {
+        justify-content: center;
+    }
+    .banner-item {
+        flex: 0 1 calc((100% - (1 * 30px)) / 2);
+    }
+}
+
+@media all and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    /* ----- */
+    .desktop-wrapper {
+        display: none;
+    }
+    .mobile-wrapper {
+        display: block;
+        background-color: var(--coloraaa);
+    }
+    .mobile-menu-wrapper {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: flex;
+    }
+    .navbar-flex {
+        flex-wrap: wrap;
+        position: static;
+    }
+    .header-top_menu {
+        padding-left: 1rem;
+    }
+    .mobile-header-top-logo {
+        padding-left: 1rem;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    /* ----- */
+    .slides {
+        height: calc(100vh - 84px);
+    }
+    /* ----- */
+    .season-collection h2 {
+        max-width: 50%;
+    }
+    /* ----- */
+    .filter-box {
+        gap: 1rem;
+    }
+    /* ----- */
+    .product-item {
+        width: 32%;
+    }
+    /* ----- */
+    .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 2.5rem;
+    }
+    .footer-item {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 2rem;
+    }
+    /* ----- */
+    .banner-item {
+        flex: 0 1 100%;
+    }
+    /* ----- */
+    .menu-items-product-ov {
+        row-gap: 1rem;
+    }
+    .menu-product-ov {
+        gap: 1rem;
+    }
+    /* ----- */
+    .filter-box {
+        flex-wrap: wrap;
+        justify-content: normal;
+        gap: 2rem 0;
+    }
+    .section-filter-item {
+        width: 50%;
+    }
+    /* ----- */
+    .product-item {
+        width: 49%;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .container {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    .icon-items {
+        padding-left: 0 !important;
+        gap: 0.4rem;
+    }
+    .mobile-menu-icon {
+        padding-left: 0.4rem;
+    }
+    .season-collection h2 {
+        max-width: 100%;
+        font-size: 40px;
+    }
+    .season-collection p {
+        font-size: 20px;
+    }
+    /* ----- */
+    .filter-box {
+        gap: 1.5rem 0;
+    }
+    .section-filter-item {
+        width: 100%;
+    }
+    /* ----- */
+    .product-item {
+        width: 100%;
+    }
+    /* ----- */
+    .footer-item {
+        width: 100%;
+    }
+}
+@media all and (max-width: 400px) {
+    .logo {
+        flex-basis: 35%;
+    }
+}
